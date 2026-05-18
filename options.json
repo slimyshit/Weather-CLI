@@ -1,0 +1,23 @@
+{
+    "lon": "1",
+    "lat": 0,
+    "id": 0,
+    "description": 1,
+    "temp": 1,
+    "feels_like": 1,
+    "temp_min": 1,
+    "temp_max": 1,
+    "pressure": 0,
+    "humidity": 1,
+    "sea_level": 0,
+    "grnd_level": 0,
+    "visibility": 0,
+    "speed": 1,
+    "deg": 0,
+    "gust": 0,
+    "all": 0,
+    "sunrise": 0,
+    "sunset": 0,
+    "timezone": 0,
+    "name": 0
+}
