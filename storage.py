@@ -106,3 +106,7 @@ def store_response(response) :
         except FileNotFoundError :
             open("response.json", "w") 
             close("response.json")
+
+
+def change_location_state (state) :
+    
