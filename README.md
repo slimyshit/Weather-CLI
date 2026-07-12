@@ -2,16 +2,17 @@ Weather-CLI
 
   A command-line weather app in Python that fetches current weather data and lets you save frequently checked cities.
 
-What it does
+What it does :
 
   Fetches live weather data from a weather API for a given city and displays it in the terminal. Cities can be saved for quick repeat lookups, persisted locally so they're available across sessions.
 
-Features
+Features:
+
   Fetch current weather for any city
   , Save and manage a list of favorite cities
   , Persistent local storage (no need to re-enter cities each run)
   
-Options
+Options :
 
   -h, --help       show this help message and exit
   
@@ -31,7 +32,7 @@ Options
   
   --set             Configure settings e.g lon 0, or lon 1 , Note 0 means false 1 means true
   
-Setup
+Setup :
 
   bash "git clone https://github.com/slimyshit/Weather-CLI"
   
@@ -45,11 +46,11 @@ Setup
 
   .env is gitignored, so your key stays local and won't be pushed to GitHub.
 
-Run
+Run :
 
   python main.py --(one of the options listed above)
 
-Architecture
+Architecture :
 
   main.py — entry point, CLI interaction
   
@@ -61,5 +62,4 @@ Architecture
   
   options.json — configuration
 
-License
-  MIT
+License :  MIT
