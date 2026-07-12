@@ -13,20 +13,30 @@ Features
   
 Options
   -h, --help       show this help message and exit
-  , --w              Show weather of saved cities
-  , --search         Search a location
-  , --save           Save a city
-  , --remove         Remove a city from saved
-  , --fav            Displays weather of saved cities
-  , --list, -l       Lists all saved cities
-  , --settings       Show settings
-  , -set             Configure settings e.g lon 0, or lon 1 , Note 0 means false 1 means true
+  
+  --w              Show weather of saved cities
+  
+  --search         Search a location
+  
+  --save           Save a city
+  
+  --remove         Remove a city from saved
+  
+  --fav            Displays weather of saved cities
+  
+  --list, -l       Lists all saved cities
+  
+  --settings       Show settings
+  
+  --set             Configure settings e.g lon 0, or lon 1 , Note 0 means false 1 means true
   
 Setup
 
   bash "git clone https://github.com/slimyshit/Weather-CLI"
-  , cd Weather-CLI
-  , pip install requests python-dotenv
+  
+  cd Weather-CLI
+  
+  pip install requests python-dotenv
   
   You'll also need an API key from (https://openweathermap.org/api). Create a .env file in the project root:
 
@@ -41,9 +51,13 @@ Run
 Architecture
 
   main.py — entry point, CLI interaction
+  
   Api.py — handles requests to the weather API
+  
   storage.py — saves/loads city list to saved_cities.json
+  
   Utils.py — helper functions
+  
   options.json — configuration
 
 License
