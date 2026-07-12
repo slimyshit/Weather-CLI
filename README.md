@@ -12,6 +12,7 @@ Features
   , Persistent local storage (no need to re-enter cities each run)
   
 Options
+
   -h, --help       show this help message and exit
   
   --w              Show weather of saved cities
