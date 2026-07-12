@@ -26,17 +26,23 @@
   
 # Setup 
 
--  bash "git clone https://github.com/slimyshit/Weather-CLI"
--  cd Weather-CLI
--  pip install requests python-dotenv
--  You'll also need an API key from (https://openweathermap.org/api). Create a .env file in the project root
--  API_KEY=your_api_key_here
+```
+ git clone https://github.com/slimyshit/Weather-CLI
+```
+```
+  cd Weather-CLI
+```
+```
+  pip install requests python-dotenv
+```
+-  You'll also need an API key from `(https://openweathermap.org/api)`. Create a .env file in the project root
+- `API_KEY=your_api_key_here`
 -  .env is gitignored, so your key stays local and won't be pushed to GitHub.
   
 # Run 
-
+```
  - python main.py --(one of the options listed above)
-
+```
 # Architecture 
 
   - main.py — entry point, CLI interaction
