@@ -36,7 +36,7 @@
   pip install requests python-dotenv
 ```
 -  You'll also need an API key from `(https://openweathermap.org/api)`. Create a .env file in the project root
-- `API_KEY=your_api_key_here`
+-  In .env write `API_KEY=your_api_key_here`
 -  .env is gitignored, so your key stays local and won't be pushed to GitHub.
   
 # Run 
